@@ -7,20 +7,14 @@
 }
 
 /*None of the below styling options work for some reason*/
-#section-header {
-    margin-left: 10%;
-    color: #FF0000
+.section-header {
+    margin-left: 5%;
 }
 
-#step-header {
+.step-header {
     margin-left: 10%;
-    color:#FF0000
 }
 
-#tutorial-figure {
+.tutorial-figure {
     border-style: solid
-}
-
-#tutorial-summary {
-    color:#FF0000
 }
