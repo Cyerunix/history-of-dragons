@@ -1,0 +1,25 @@
+#page-header {
+    font-size:26pt;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-bottom-style: solid
+}
+
+/*None of the below styling options work for some reason*/
+#section-header {
+    margin-left: 10%;
+    color: #FF0000
+}
+
+#step-header {
+    margin-left: 10%
+}
+
+#tutorial-figure {
+    border-style: solid
+}
+
+#tutorial-summary {
+    color:#FF0000
+}
