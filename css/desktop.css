@@ -1,0 +1,49 @@
+/*Stylization for all pages:*/
+/*Include header and footer styles here*/
+
+/*Stylization for art pages:*/
+#page-header {
+    font-size:26pt;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+}
+
+#tutorial {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header {
+    margin-left: 5%;
+}
+
+.step-header {
+    margin-left: 10%;
+}
+
+.tutorial-image {
+    width: 100%;
+    height: 100%;
+}
+
+.tutorial-figure {
+    width: 20%;
+    height: 20%;
+    border-style: solid;
+    margin-right: 10%;
+    flex-shrink: 0;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.step-description {
+    border-style: solid;
+}
