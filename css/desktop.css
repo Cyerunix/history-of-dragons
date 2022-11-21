@@ -1,11 +1,15 @@
 /*Stylization for all pages:*/
 /*Include header and footer styles here*/
 
+.background {
+    background-color:rgb(187, 255, 227);
+}
+
 /*Stylization for art pages:*/
 #page-header {
     font-size:26pt;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 30px;
     border-bottom-style: solid;
 }
@@ -32,18 +36,24 @@
     width: 20%;
     height: 20%;
     border-style: solid;
-    margin-right: 10%;
+    border-width: 0.5px;
     flex-shrink: 0;
+    background-color: white;
 }
 
 .step {
     display: flex;
     align-items: flex-start;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-left: 10%;
+    flex-direction: row;
+    justify-content: left;
 }
 
 .step-description {
+    margin-right: 10%;
+    margin-left: 5%;
+    background-color: #D0D0D0;
     border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    padding: 15px;
 }
