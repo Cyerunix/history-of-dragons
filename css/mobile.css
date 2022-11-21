@@ -1,0 +1,25 @@
+@media only screen and (max-width: 480px) {
+
+  header {
+    background-color: brown;
+    height: 150px;
+  }
+
+  li {
+    float: none;
+  }
+
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  } 
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}

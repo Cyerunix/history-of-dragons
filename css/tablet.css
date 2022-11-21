@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+
+  header {
+    padding: 10px;
+    background-color: darkgreen;
+  }
+
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  } 
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+}
