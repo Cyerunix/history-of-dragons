@@ -1,7 +1,100 @@
 /*Stylization for all pages:*/
 /*Include header and footer styles here*/
 
+
+/*Stylization for home pages:*/
+header {
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  .logo {
+    border-radius: 50%;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  li a:hover {
+    color: blue;
+  }
+  
+  .content {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5rem;
+  }
+  
+  .slideShow {
+    padding: 10px;
+  }
+  
+  .slideImg {
+    max-height:100%;
+    max-width:100%;
+  }
+  
+  .flex-container {
+      display: flex;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%; /* Should be removed. Only for demonstration */
+  } 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .myfooter {
+      text-align:center;
+      font-size:22px;
+      padding: 10px;
+      font-weight:bold;
+      background-color: #333;
+      color: wheat;
+      position: fixed;
+      left: 0;
+      bottom: 0;  
+      width: 100%;  
+  }
+  
+
+
 /*Stylization for art pages:*/
+
+
 #page-header {
     font-size:26pt;
     text-align: center;
