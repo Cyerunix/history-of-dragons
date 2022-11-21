@@ -1,7 +1,7 @@
 /*Stylization for all pages:*/
 /*Include header and footer styles here*/
 
-.background {
+#art-page-background {
     background-color:rgb(187, 255, 227);
 }
 
@@ -92,12 +92,10 @@ header {
       bottom: 0;  
       width: 100%;  
   }
+
+
   
-
-
 /*Stylization for art pages:*/
-
-
 #page-header {
     font-size:26pt;
     text-align: center;
@@ -133,6 +131,10 @@ header {
     background-color: white;
 }
 
+.tutorial-figure-caption {
+    text-align: center;
+}
+
 .step {
     display: flex;
     align-items: flex-start;
@@ -143,7 +145,7 @@ header {
 .step-description {
     margin-right: 10%;
     margin-left: 5%;
-    background-color: #D0D0D0;
+    background-color: #DDD;
     border-style: solid;
     border-width: 0.5px;
     border-radius: 10px;
