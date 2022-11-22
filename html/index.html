@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="../css/desktop.css" />
   <link rel="stylesheet" type="text/css" href="../css/tablet.css" />
   <link rel="stylesheet" type="text/css" href="../css/mobile.css" />
+
 </head>
 
 <body>
@@ -31,15 +32,33 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div>
-    <div class="column" >
+    <div class="column">
       <div class="slideShow">
-        <img src="../images/home_imgs/dragon.jpg" class="slideImg"/>
+        <img src="../images/home_imgs/dragon.jpg" class="slideImg" />
       </div>
-      
-    </div>
-  </div>
+      <div class="slideShow">
+        <img src="../images/home_imgs/quetzalcoatl.jpg" class="slideImg" />
+      </div>
+      <div class="slideShow">
+        <img src="../images/home_imgs/salamander.jpg" class="slideImg" />
+      </div>
+      <div class="slideShow">
+        <img src="../images/home_imgs/wyvern.jpg" class="slideImg" />
+      </div>
 
-  <footer class="site-footer">Copyright</footer>
+
+      <!-- Next and previous buttons -->
+      <div class="buttonsDiv">
+        <a class="prevButton" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="nextButton" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+    </div>
+  </div> 
+
+    <footer class="site-footer">Copyright</footer>
+
+    <script src="../js/home.js"></script>
+
 </body>
 
 </html>

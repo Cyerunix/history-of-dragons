@@ -9,7 +9,7 @@
     float: left;
     width: 100%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: auto;
   } 
 
   .row:after {
