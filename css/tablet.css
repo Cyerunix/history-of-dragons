@@ -59,7 +59,7 @@
     margin-bottom: 30px;
     border-bottom-style: solid;
 }
-
+ /*Style for info:*/
 .header {
     margin-left: 50%;
 }
@@ -72,10 +72,5 @@
     font-size: 15pt;
     text-align: left;
     
-}
-
-.
-#info-background {
-    background-color:rgb(255, 249, 188);
 }
 
