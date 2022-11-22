@@ -75,3 +75,21 @@
     width: 300px;
   }
 }
+
+ /*Style for info:*/
+.header {
+    margin-left: 50%;
+}
+
+.subheader {
+    font-size: 22pt;
+}
+
+.description {
+    font-size: 15pt;
+    text-align: left;
+    
+}
+#info-background {
+    background-color:rgb(255, 249, 188);
+}
