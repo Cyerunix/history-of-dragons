@@ -52,3 +52,30 @@
 		margin: none;
 	}
 }
+
+#header {
+    font-size: 26pt;
+    text-align: left;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+}
+
+.header {
+    margin-left: 50%;
+}
+
+.subheader {
+    font-size: 22pt;
+}
+
+.description {
+    font-size: 15pt;
+    text-align: left;
+    
+}
+
+.
+#info-background {
+    background-color:rgb(255, 249, 188);
+}
+
