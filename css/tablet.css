@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+  /*Stylization for the homepage*/
+  header {
+    padding: 10px;
+    background-color: darkgreen;
+  }
+
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  } 
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /*Stylization for art pages:*/
+  .step-description {
+    margin-right: 10%;
+    padding: 10px;
+  }
+
+  .tutorial-figure {
+    width: 35%;
+    height: 35%;
+    margin: 0 5% 5px 5%;
+  }
+
+  .step-header {
+    margin-left: 5%;
+  }
+}

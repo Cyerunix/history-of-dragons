@@ -1,11 +1,124 @@
 /*Stylization for all pages:*/
 /*Include header and footer styles here*/
 
+body {
+  margin-bottom: 40px;
+}
+
+/*Stylization for home pages:*/
+header {
+  padding: 10px;
+  background-color: #333;
+  position: fixed;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: wheat;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  color: blue;
+}
+
+.content {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto;
+} 
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-footer {
+    text-align:center;
+    font-size:22px;
+    padding: 10px;
+    font-weight:bold;
+    background-color: #333;
+    color: wheat;
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+    width: 100%; 
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+
+/* Hide the images by default */
+
+.slideImg {
+  width: 100%;
+  height: auto;
+}
+
+/* Next & previous buttons */
+.prevButton, .nextButton {
+  cursor: pointer;
+  padding: 25px;
+  color: red;
+  font-weight: bold;
+  font-size: 28px;
+  user-select: none;
+}
+
+.nextButton {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.buttonsDiv {
+  text-align: center;
+}
+  
 /*Stylization for art pages:*/
 #page-header {
-    font-size:26pt;
+    font-size: 26pt;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 30px;
     border-bottom-style: solid;
 }
@@ -13,14 +126,18 @@
 #tutorial {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
+    background-color: #BBB;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .section-header {
-    margin-left: 5%;
+    text-align: center;
 }
 
 .step-header {
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 .tutorial-image {
@@ -32,18 +149,35 @@
     width: 20%;
     height: 20%;
     border-style: solid;
-    margin-right: 10%;
+    border-width: 0.5px;
     flex-shrink: 0;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+
+.tutorial-figure-caption {
+    text-align: center;
 }
 
 .step {
     display: flex;
     align-items: flex-start;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-left: 10%;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0 0 0 0;
 }
 
 .step-description {
+    align-self: center;
+    margin-top: 0;
+    background-color: #DDD;
     border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#art-page-background {
+    background-color:rgb(187, 255, 227);
 }

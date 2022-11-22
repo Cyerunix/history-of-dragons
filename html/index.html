@@ -2,43 +2,62 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/desktop.css" />
+  <link rel="stylesheet" type="text/css" href="../css/tablet.css" />
+  <link rel="stylesheet" type="text/css" href="../css/mobile.css" />
+
 </head>
 
 <body>
-
-  <header id="header">
-    <div>
-      <span><a href="#"><img src="https://via.placeholder.com/50" /></a></span>
-      <span><a href="#">Western Dragons</a></span>
-      <span><a href="#">Eastern Dragons</a></span>
-      <span><a href="#">Activities</a></span>
-    </div>
+  <header class="site-header">
+    <a href="#home"><img src="https://via.placeholder.com/50" class="logo" /></a>
+    <nav>
+      <ul>
+        <li><a href="info_page_template.html">Dragons</a></li>
+        <li><a href="art_page_template.html">Art Page</a></li>
+        <li><a href="activity_page.html">Activities</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div id ="main">
-    <table border="0" width="100%" height="80%" cellpadding="20">
+  <div class="row">
+    <div class="column">
+      <h2>Welcome to Website</h2>
+      <p class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="column">
+      <div class="slideShow">
+        <img src="../images/info_imgs/dragon.jpg" class="slideImg" />
+      </div>
+      <div class="slideShow">
+        <img src="../images/info_imgs/quetzalcoatl.jpg" class="slideImg" />
+      </div>
+      <div class="slideShow">
+        <img src="../images/info_imgs/salamander.jpg" class="slideImg" />
+      </div>
+      <div class="slideShow">
+        <img src="../images/info_imgs/wyvern.jpg" class="slideImg" />
+      </div>
 
-      <tr>
-        <td width="50%">
-          <h1>WELCOME</H1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-        </td>
-        <td width="50%" align="center">
-          <img src="https://via.placeholder.com/250" />
-        </td>
-      </tr>
+      <!-- Next and previous buttons -->
+      <div class="buttonsDiv">
+        <a class="prevButton" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="nextButton" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+    </div>
+  </div> 
 
-      </tbody>
-    </table>
-  </div>
+    <footer class="site-footer">Copyright</footer>
 
-  <footer id="footer" align="center">Copyright</footer>
+    <script src="../js/home.js"></script>
+
 </body>
 
 </html>
