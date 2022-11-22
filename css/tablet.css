@@ -33,4 +33,22 @@
   .step-header {
     margin-left: 5%;
   }
+  
+  /*Stylization for the activity page*/
+  #randombutton-container{
+		width: 100%;
+		margin: none;
+	}
+	.top-content{
+		display: block;
+	}
+
+	#tutorial-container{
+		width: 95%;
+	}
+
+	#quiz-container{
+		width: 98%;
+		margin: none;
+	}
 }
