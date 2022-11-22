@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px) {
+
+
+	#randombutton-container{
+		width: 100%;
+		margin: none;
+	}
+	.top-content{
+		display: block;
+	}
+
+	#tutorial-container{
+		width: 95%;
+	}
+
+	#quiz-container{
+		width: 98%;
+		margin: none;
+	}
+
+
+}
