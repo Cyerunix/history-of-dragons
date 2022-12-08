@@ -3,9 +3,9 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="../css/home/home_desktop.css"/>
-<link rel="stylesheet" href="../css/home/home_mobile.css"/>
-<link rel="stylesheet" href="../css/home/home_tablet.css"/>
+<link rel="stylesheet" href="../css/desktop.css"/>
+<link rel="stylesheet" href="../css/mobile.css"/>
+<link rel="stylesheet" href="../css/tablet.css"/>
 
 
 </head>
@@ -16,8 +16,8 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a>
-        <li><a onclick="return showDropdown();">Dragons</a>
-          <div class="dropdownMenu">
+        <li><a id="dropdown-trigger">Dragons</a>
+          <div class="dropdownMenu" onmouseleave="return hideDropdown();">
             <a href="american_info_page.html">American Dragons</a>
             <a href="european_info_page.html">European Dragons</a>
             <a href="asian_info_page.html">Asian Dragons</a>
@@ -28,7 +28,7 @@
     </nav>
 </header>
 
-  <div class="row" onclick="return hideDropdown();">
+  <div class="row">
     <div class="column">
       <h2>Welcome to our Website!</h2>
       <p class="content">
@@ -38,7 +38,7 @@
         to almost 2000 BC. The idea of a dragon has come up in different cultures all over the world, all with their own take on what 
         a dragon actually is. From the Americas to Europe, and Asia, we see that there is a huge importance of dragons in these cultures. 
         This website looks to give you a deeper understanding of these types of dragons and their origins. There are also some fun activities you can 
-        complete with your newfound knowledge of dragons. We hope you like our site, happy browsing!!!
+        complete with your newfound knowledge of dragons. We hope you like our site, happy browsing!
       </p>
     </div>
     <div class="column">
