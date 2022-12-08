@@ -9,41 +9,49 @@
 
 </head>
 
-<body>
+<body >
   <header class="site-header">
-    <a href="#home"><img src="https://via.placeholder.com/50" class="logo" /></a>
+    <a href="#home"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo" /></a>
     <nav>
       <ul>
-        <li><a href="info_page_template.html">Dragons</a></li>
+        <li><a onclick="return showDropdown();">Dragons</a>
+          <div class="dropdownMenu">
+            <a href="american_info_page.html">American Dragons</a>
+            <a href="european_info_page.html">European Dragons</a>
+            <a href="asian_info_page.html">Asian Dragons</a>
+          </div>
+        </li>
         <li><a href="art_page_template.html">Art Page</a></li>
         <li><a href="activity_page.html">Activities</a></li>
       </ul>
     </nav>
   </header>
 
-  <div class="row">
+  <div class="row" onclick="return hideDropdown();">
     <div class="column">
-      <h2>Welcome to Website</h2>
+      <h2>Welcome to our Website!</h2>
       <p class="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        The historyofdragons.com is a website made by students at Stevens Institute of Technology, who have a deep appreciation
+        for dragons and their history. Dragons have become extremely popular in current-day pop culture. From TV shows to movies we are
+        sure that everyone has seen or at least heard of a dragon. What most people don't know is that dragons have a rich history, spanning
+        to almost 2000 BC. The idea of a dragon has come up in different cultures all over the world, all with their own take on what 
+        a dragon actually is. From the Americas to Europe, and Asia, we see that there is a huge importance of dragons in these cultures. 
+        This website looks to give you a deeper understanding of these types of dragons and their origins. There are also some fun activities you can 
+        complete with your newfound knowledge of dragons. We hope you like our site, happy browsing!!!
       </p>
     </div>
     <div class="column">
       <div class="slideShow">
-        <img src="../images/home_imgs/dragon.jpg" class="slideImg" />
+        <img src="../images/home_imgs/gameofthrones1.jpg" class="slideImg" />
       </div>
       <div class="slideShow">
-        <img src="../images/home_imgs/quetzalcoatl.jpg" class="slideImg" />
+        <img src="../images/home_imgs/smaug.jpg" class="slideImg" />
       </div>
       <div class="slideShow">
-        <img src="../images/home_imgs/salamander.jpg" class="slideImg" />
+        <img src="../images/home_imgs/avatar.jpg" class="slideImg" />
       </div>
       <div class="slideShow">
-        <img src="../images/home_imgs/wyvern.jpg" class="slideImg" />
+        <img src="../images/home_imgs/gameofthrones.jpg" class="slideImg" />
       </div>
 
 
