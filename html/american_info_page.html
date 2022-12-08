@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="../css/home/home_desktop.css"/>
+<link rel="stylesheet" href="../css/home/home_mobile.css"/>
+<link rel="stylesheet" href="../css/home/home_tablet.css"/>
+<link rel="stylesheet" href="../css/infopage.css"/>
+<link rel="stylesheet" href="../css/infopageMobile.css"/>
+<link rel="stylesheet" href="../css/infopageTablet.css"/>
+<script src="../js/jquery-3.6.1.js"></script>
+<script src="../js/dropdown.js"></script>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <header class="site-header">
+      <a href="#home"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo"/></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a>
+          <li><a onclick="return showDropdown();">Dragons</a>
+            <div class="dropdownMenu">
+              <a href="american_info_page.html">American Dragons</a>
+              <a href="european_info_page.html">European Dragons</a>
+              <a href="asian_info_page.html">Asian Dragons</a>
+            </div>
+          </li>
+          <li><a href="activity_page.html">Activities</a></li>
+        </ul>
+      </nav>
+  </header>
+    <title>INFO</title>
+</head>
+    <body div id ="info-background">
+        <div class ="info-content" onclick="return hideDropdown();">
+            <table border="0" width="100%" height="80%" cellpadding="20">
+
+              <tr>
+                <td width="65%">
+                  <h1 div id = "header" class = "header">Salamanders</h1>
+                     <h2 class = "subheader">Origin </h2>
+                  <p class = "description">
+                    The Wyvern's origin stems from the word vīpera in Latin. The implication behind the latin word comes from the wyvern's ability to use venom as its main weapon. It was considered to be a flying snake with two legs as it formed the shape of a dragon.
+                  </p>
+                    <h2 class = "subheader" >Heraldry</h2>
+                  <p class = "description">
+                   Oftentimes represented on English war banners during the early 8th century, Wyverns, overtime, became a symbol of courage and strength. Now, wyverns can be seen as a common logo or mascot, seeing lots of representation, especially in the country of Wales.
+                  </p>
+                </td>
+                <td width="50%" align="right">
+                  <img class = "img" src="../images/salamander.jpg"/>
+                </td>
+              </tr>
+              <tr>
+                <td width="65%">
+                  <h1 div id = "header" class = "header">Quetzalcoatl</h1>
+                     <h2 class = "subheader">Origin </h2>
+                  <p class = "description">
+                    The name "Quetzalcoatl" comes from the Nahuatl word for plumed serpent. It was prevalent in folklore across Mesoamerican culture, and is said in myths to be the ancestor of most mesoamerican people. This dragon is often represented as a god, sometimes of the morning star or death.
+                  </p>
+                    <h2 class = "subheader" >Heraldry</h2>
+                  <p class = "description">
+                   The Quetzalcoatl is a flying serpent dragon with no wings and feathers along its body. It is often depicted as brightly colored due to its connection to the quetzal bird, which are often green, blue, red, and white.
+                  </p>
+                </td>
+                <td width="50%" align="right">
+                  <img class = "img" src="../images/salamander.jpg"/>
+                </td>
+              </tr>
+            </table>
+          </div>
+    </body>
+    <footer class="site-footer">Copyright</footer>
+</html>
