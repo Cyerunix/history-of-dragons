@@ -9,14 +9,17 @@ header {
   height: 65px;
   left: 0;
   right: 0;
+  z-index: 2;
 }
 
 .logo {
   border-radius: 50%;
+  z-index: 3;
 }
 
 nav {
   float: right;
+  z-index: 2;
 }
 
 ul {
@@ -50,7 +53,9 @@ li a:hover {
   background-color: #333;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: -1;
+  padding-top: 75px;
+  margin-top: -75px;
 }
 
 .dropdownMenu a:hover {
@@ -76,8 +81,7 @@ li a:hover {
   width: 100%; 
 }
 
-/*Stylization for home pages:*/
-
+/*Stylization for home page:*/
 .content {
   font-size: 20px;
   font-family: Verdana, sans-serif;
@@ -148,6 +152,10 @@ body {
 }
   
 /*Stylization for art pages:*/
+#art-page-background {
+  background-color: rgb(255, 249, 188);
+}
+
 #page-header {
     font-size:26pt;
     text-align: center;
@@ -197,6 +205,10 @@ body {
 
 .tutorial-figure-caption {
     text-align: center;
+    border-top-style: solid;
+    border-width: 0.5px;
+    padding: 10px;
+    background-color: #DDD;
 }
 
 .step {
@@ -219,4 +231,33 @@ body {
   /*Stylization for info pages:*/
   .info-content {
     margin-top: 85px;
+  }
+
+  #header {
+    font-size: 26pt;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+  }
+
+  .header {
+    margin-left: 50%;
+  }
+
+  .subheader {
+    font-size: 22pt;
+  }
+
+  .description {
+    font-size: 15pt;
+    text-align: left;
+  }
+
+  #info-background {
+    background-color:rgb(255, 249, 188);
+  }
+
+  .info-img {
+    max-width: 100%;
+    aspect-ratio: auto;
   }
