@@ -1,0 +1,23 @@
+@media only screen and (max-width: 480px) {
+  /*Stylization for the homepage*/
+  header {
+    height: 150px;
+  }
+
+  li {
+    float: none;
+  }
+
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  } 
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
