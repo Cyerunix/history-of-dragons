@@ -9,10 +9,7 @@
   }
 
   .column {
-    float: left;
     width: 100%;
-    padding: 10px;
-    height: auto;
   } 
 
   .row:after {
@@ -73,22 +70,22 @@
     text-align: center;
     width: 300px;
   }
-}
 
- /*Style for info:*/
-.header {
+  /*Style for info:*/
+  .header {
     margin-left: 50%;
-}
+  }
 
-.subheader {
+  .subheader {
     font-size: 22pt;
-}
+  }
 
-.description {
+  .description {
     font-size: 15pt;
     text-align: left;
     
-}
-#info-background {
+  }
+  #info-background {
     background-color:rgb(255, 249, 188);
+  }
 }

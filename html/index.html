@@ -3,17 +3,19 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../css/desktop.css" />
-  <link rel="stylesheet" type="text/css" href="../css/tablet.css" />
-  <link rel="stylesheet" type="text/css" href="../css/mobile.css" />
+<link rel="stylesheet" href="../css/home/home_desktop.css"/>
+<link rel="stylesheet" href="../css/home/home_mobile.css"/>
+<link rel="stylesheet" href="../css/home/home_tablet.css"/>
+
 
 </head>
 
 <body >
   <header class="site-header">
-    <a href="#home"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo" /></a>
+    <a href="#home"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo"/></a>
     <nav>
       <ul>
+        <li><a href="index.html">Home</a>
         <li><a onclick="return showDropdown();">Dragons</a>
           <div class="dropdownMenu">
             <a href="american_info_page.html">American Dragons</a>
@@ -21,11 +23,10 @@
             <a href="asian_info_page.html">Asian Dragons</a>
           </div>
         </li>
-        <li><a href="art_page_template.html">Art Page</a></li>
         <li><a href="activity_page.html">Activities</a></li>
       </ul>
     </nav>
-  </header>
+</header>
 
   <div class="row" onclick="return hideDropdown();">
     <div class="column">
@@ -64,8 +65,9 @@
 
     <footer class="site-footer">Copyright</footer>
 
+    <script src="../js/jquery-3.6.1.js"></script>
     <script src="../js/home.js"></script>
-
+    <script src="../js/dropdown.js"></script>
 </body>
 
 </html>

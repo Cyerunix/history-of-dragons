@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 
+<link rel="stylesheet" href="../css/home/home_desktop.css"/>
+<link rel="stylesheet" href="../css/home/home_mobile.css"/>
+<link rel="stylesheet" href="../css/home/home_tablet.css"/>
+<link rel="stylesheet" href="../css/infopage.css"/>
+<link rel="stylesheet" href="../css/infopageMobile.css"/>
+<link rel="stylesheet" href="../css/infopageTablet.css"/>
+<script src="../js/jquery-3.6.1.js"></script>
+<script src="../js/dropdown.js"></script>
+<script src="../js/home.js"></script>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <header class="site-header">
+      <a href="#home"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo"/></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a>
+          <li><a onclick="return showDropdown();">Dragons</a>
+            <div class="dropdownMenu">
+              <a href="american_info_page.html">American Dragons</a>
+              <a href="european_info_page.html">European Dragons</a>
+              <a href="asian_info_page.html">Asian Dragons</a>
+            </div>
+          </li>
+          <li><a href="activity_page.html">Activities</a></li>
+        </ul>
+      </nav>
+  </header>
     <title>INFO</title>
 </head>
-    <body>
-        <div id ="main">
+    <body div id ="info-background">
+        <div class ="info-content" onclick="return hideDropdown();">
             <table border="0" width="100%" height="80%" cellpadding="20">
 
-              <tr>
+            <tr>
                 <td width="65%">
-                  <h1>DRAGON HEADER</h1>
-                  <h2> Origin, anatomy, folklore, etc. </h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.
-                  </p>
+
+                  <h1 div id = "header" class = "header">Wyverns</h1>
+                    <h2 class = "subheader">Origin</h2>
+                      <p class = "description">
+                        The Wyvern's origin stems from the word vīpera in Latin. The implication behind the latin word comes from the wyvern's ability to use venom as its main weapon. It was considered to be a flying snake with two legs as it formed the shape of a dragon.
+                      </p>
+                        <h2 class = "subheader" >Heraldry</h2>
+                      <p class = "description">
+                       Oftentimes represented on English war banners during the early 8th century, Wyverns, overtime, became a symbol of courage and strength. Now, wyverns can be seen as a common logo or mascot, seeing lots of representation, especially in the country of Wales.
+                      </p>
                 </td>
                 <td width="50%" align="right">
-                  <img src="https://via.placeholder.com/250" />
+                  <img src=../images/info_imgs/wyvern.jpg />
                 </td>
               </tr>
-
-      </tbody>
-    </table>
-  </div>
+            </table>
+          </div>
     </body>
+    <footer class="site-footer">Copyright</footer>
 </html>
