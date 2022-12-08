@@ -13,8 +13,8 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a>
-          <li><a onclick="return showDropdown();">Dragons</a>
-            <div class="dropdownMenu">
+          <li><a id="dropdown-trigger">Dragons</a>
+            <div class="dropdownMenu" onmouseleave="return hideDropdown();">
               <a href="american_info_page.html">American Dragons</a>
               <a href="european_info_page.html">European Dragons</a>
               <a href="asian_info_page.html">Asian Dragons</a>
@@ -43,7 +43,23 @@
                   </p>
                 </td>
                 <td width="50%" align="right">
-                  <img src="https://via.placeholder.com/250" />
+                  <img class = "info-img" src="../images/info_imgs/salamander.jpg"/>
+                </td>
+              </tr>
+              <tr>
+                <td width="65%">
+                  <h1 div id = "header" class = "header">Quetzalcoatl</h1>
+                     <h2 class = "subheader">Origin </h2>
+                  <p class = "description">
+                    The name "Quetzalcoatl" comes from the Nahuatl word for plumed serpent. It was prevalent in folklore across Mesoamerican culture, and is said in myths to be the ancestor of most mesoamerican people. This dragon is often represented as a god, sometimes of the morning star or death.
+                  </p>
+                    <h2 class = "subheader" >Heraldry</h2>
+                  <p class = "description">
+                   The Quetzalcoatl is a flying serpent dragon with no wings and feathers along its body. It is often depicted as brightly colored due to its connection to the quetzal bird, which are often green, blue, red, and white.
+                  </p>
+                </td>
+                <td width="50%" align="right">
+                  <img class = "info-img" src="../images/info_imgs/quetzalcoatl.jpg"/>
                 </td>
               </tr>
             </table>

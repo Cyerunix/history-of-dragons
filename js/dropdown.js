@@ -1,9 +1,11 @@
-function showDropdown() {
-    let dropdown = document.getElementsByClassName("dropdownMenu")[0];
-    dropdown.style.display = 'block';
-  }
-  
-  function hideDropdown() {
-    let dropdown = document.getElementsByClassName("dropdownMenu")[0];
-    dropdown.style.display = 'none';
-  }
+$(function() {
+  $(".dropdownMenu").hide();
+
+  $("#dropdown-trigger").on("mouseover", function() {
+    $(".dropdownMenu").slideDown(300);
+  });
+});
+
+function hideDropdown() {
+  $(".dropdownMenu").slideUp(200);
+}

@@ -13,8 +13,8 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a>
-          <li><a onclick="return showDropdown();">Dragons</a>
-            <div class="dropdownMenu">
+          <li><a id="dropdown-trigger">Dragons</a>
+            <div class="dropdownMenu" onmouseleave="return hideDropdown();">
               <a href="american_info_page.html">American Dragons</a>
               <a href="european_info_page.html">European Dragons</a>
               <a href="asian_info_page.html">Asian Dragons</a>
@@ -48,7 +48,7 @@
                       </p>
                 </td>
                 <td width="50%" align="right">
-                  <img src=../images/info_imgs/wyvern.jpg />
+                  <img class="info-img" src=../images/info_imgs/wyvern.jpg />
                 </td>
               </tr>
             </table>
