@@ -1,14 +1,7 @@
 @media only screen and (max-width: 768px) {
   /*Stylization for the homepage*/
-  header {
-    padding: 10px;
-  }
-
   .column {
-    float: left;
     width: 100%;
-    padding: 10px;
-    height: auto;
   } 
 
   .row:after {
@@ -50,26 +43,27 @@
 		width: 98%;
 		margin: none;
 	}
-}
 
-#header {
+  #header {
     font-size: 26pt;
     text-align: left;
     margin-bottom: 30px;
     border-bottom-style: solid;
-}
- /*Style for info:*/
-.header {
-    margin-left: 50%;
-}
+  }
+  
+  /*Style for info:*/
+  .header {
+      margin-left: 50%;
+  }
 
-.subheader {
-    font-size: 22pt;
-}
+  .subheader {
+      font-size: 22pt;
+  }
 
-.description {
-    font-size: 15pt;
-    text-align: left;
-    
+  .description {
+      font-size: 15pt;
+      text-align: left;
+      
+  }
 }
 
