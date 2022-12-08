@@ -23,14 +23,12 @@
 body {
   margin-bottom: 40px;
 }
-#art-page-background {
-  background-color:rgb(187, 255, 227);
-}
 
 /*Stylization for home pages:*/
 header {
   padding: 10px;
   background-color: #333;
+  position: fixed;
 }
 
 .logo {
@@ -71,8 +69,6 @@ li a:hover {
   font-weight: 500;
   line-height: 1.5rem;
 }
-
-
 
 .flex-container {
     display: flex;
@@ -143,9 +139,8 @@ li a:hover {
   
 /*Stylization for art pages:*/
 #page-header {
-    font-size:26pt;
+    font-size: 26pt;
     text-align: center;
-    margin-top: 200px;
     margin-bottom: 30px;
     border-bottom-style: solid;
 }
@@ -153,14 +148,18 @@ li a:hover {
 #tutorial {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
+    background-color: #BBB;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .section-header {
-    margin-left: 5%;
+    text-align: center;
 }
 
 .step-header {
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 .tutorial-image {
@@ -175,6 +174,8 @@ li a:hover {
     border-width: 0.5px;
     flex-shrink: 0;
     background-color: white;
+    border-radius: 5px;
+    margin-left: 8%;
 }
 
 .tutorial-figure-caption {
@@ -186,14 +187,157 @@ li a:hover {
     align-items: flex-start;
     flex-direction: row;
     justify-content: left;
+    padding: 0 0 0 0;
 }
 
 .step-description {
-    margin-right: 10%;
-    margin-left: 5%;
+    align-self: center;
+    margin-top: 0;
     background-color: #DDD;
     border-style: solid;
     border-width: 0.5px;
     border-radius: 10px;
     padding: 15px;
+}
+
+#art-page-background {
+    background-color:rgb(187, 255, 227);
+}
+
+/*Stylization for activity pages:*/
+a{
+    text-decoration: none
+}
+.activitypage{
+    display: block;
+}
+
+.divider{
+    border-top: lightgray dotted 1px;
+    margin-left: 3%;
+    margin-top: 6%;
+    width: 750px;
+}
+.dividerlist{
+    display: flex;
+}
+
+#factcontainer{
+    border: lightgray solid 1px;
+    border-radius: 20px;
+    height: 100px;
+    color: lightslategray;
+    padding: 5%;
+    text-align: center;
+    background-color: white;
+}
+
+
+#quiz-container{
+    background-color: slategray;
+    display: flex;
+    width: 99%;
+    margin: 1%;
+    margin-top: 5%;
+}
+
+#quizbutton{
+    padding: 1%;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    margin: 1%;
+}
+#quiztitle{
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin: 1%;
+    margin-right: 40%;
+    margin-top: 2%;
+}
+
+.randombutton{
+    color: wheat;
+    background-color: #333;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#randombutton-container{
+    border: lightgray solid 2px;
+    border-radius: 5px;
+    padding: 1%;
+    width: 50%;
+    height: 50%;
+    font-family: 'Courier New';
+    background-color: #ededed;
+    margin-top: 5%;
+
+}
+
+#randombutton-title{
+    font-family: 'sans-serif;';
+    text-align: center;
+}
+
+.top-content{
+    display: flex;
+}
+
+#tutorial-container{
+    width: 45%;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tutorial-point{
+    background-color: slategray;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New';
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.tutorial-point:hover{
+    background-color: #a11f29;
+}
+
+#tutorial-title{
+    background-color: #333;
+    color: wheat;
+    font-size: 30px;
+    padding: 7px;
+}
+
+/*Style for info:*/
+#header {
+    font-size: 26pt;
+    text-align: left;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+}
+
+.header {
+    margin-left: 50%;
+}
+
+.subheader {
+    font-size: 22pt;
+}
+
+.description {
+    font-size: 15pt;
+    text-align: left;
+    
+}
+#info-background {
+    background-color:rgb(255, 249, 188);
 }
