@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="../css/desktop.css"/>
-<link rel="stylesheet" href="../css/tablet.css"/>
-<link rel="stylesheet" href="../css/mobile.css"/>
-<script src="../js/jquery-3.6.1.js"></script>
-<script src="../js/dropdown.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-<html>
-	<header class="site-header">
-		<a href="#home"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo"/></a>
-		<nav>
-		  <ul>
+<header class="site-header">
+	<link rel="stylesheet" href="../css/desktop.css" />
+	<link rel="stylesheet" href="../css/tablet.css" />
+	<link rel="stylesheet" href="../css/mobile.css" />
+	<script src="../js/jquery-3.6.1.js"></script>
+	<script src="../js/dropdown.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<a href="index.html"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo" /></a>
+	<nav>
+		<ul>
 			<li><a href="index.html">Home</a>
 			<li><a id="dropdown-trigger">Dragons</a>
-			  <div class="dropdownMenu" onmouseleave="return hideDropdown();">
-				<a href="american_info_page.html">American Dragons</a>
-				<a href="european_info_page.html">European Dragons</a>
-				<a href="asian_info_page.html">Asian Dragons</a>
-			  </div>
+				<div class="dropdownMenu" onmouseleave="return hideDropdown();">
+					<a href="american_info_page.html">American Dragons</a>
+					<a href="european_info_page.html">European Dragons</a>
+					<a href="asian_info_page.html">Asian Dragons</a>
+				</div>
 			</li>
 			<li><a href="activity_page.html">Activities</a></li>
-		  </ul>
-		</nav>
-	</header>
+		</ul>
+	</nav>
+</header>
 
-<div class="activitypage" onclick="return hideDropdown();">
+<body id="activity-page-background">
 	<div class="top-content">
 
 		<div id="randombutton-container">
 			<h1 id="randombutton-title">Dragon Fun Fact Generator</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        	magna aliqua.
-        	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        	<div id="factcontainer"><i>Fact will generate here...</i></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore
+				magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			<div id="factcontainer"><i>Fact will generate here...</i></div>
 			<button class=randombutton>
 				<h1>Generate Fact</h1>
 			</button>
@@ -41,19 +44,25 @@
 		<div id="tutorial-container">
 			<h2 id="tutorial-title">Drawing Tutorials:</h2>
 			<!--tutorial pages separate-->
-				<div class="dividerlist">
-					<a href="dragon_head_tutorial.html"><p class="tutorial-point">Dragon Heads</p></a>
-					<div class="divider"></div>
-				</div>
+			<div class="dividerlist">
+				<a href="dragon_head_tutorial.html">
+					<p class="tutorial-point">Dragon Heads</p>
+				</a>
+				<div class="divider"></div>
+			</div>
 		</div>
 	</div>
 
 
 	<div id="quiz-container">
 		<p id="quiztitle">Test your knowledge with Dragon Quizzes!</p>
-		<button id="quizbutton"><h2>Take Quiz</h2></button>
+		<button id="quizbutton">
+			<h2>Take Quiz</h2>
+		</button>
 	</div>
 
-</div>
+</body>
+
 <footer class="site-footer">Copyright</footer>
+
 </html>

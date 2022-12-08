@@ -1,4 +1,5 @@
 @media only screen and (max-width: 480px) {
+
   /*Stylization for the homepage*/
   header {
     height: 150px;
@@ -10,7 +11,7 @@
 
   .column {
     width: 100%;
-  } 
+  }
 
   .row:after {
     content: "";
@@ -36,37 +37,38 @@
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   /*Stylization for activity pages:*/
-  #quizbutton{
+  #quizbutton {
     width: 500px;
     margin: none;
   }
 
-  #quiztitle{
+  #quiztitle {
     margin: none;
     width: 10%;
   }
 
-  #quiz-container{
+  #quiz-container {
     padding: 3%;
     width: 90%;
   }
 
-  #randombutton-container{
-      width: 100%;
-      margin: none;
-    }
-  .top-content{
+  #randombutton-container {
+    width: 100%;
+    margin: none;
+  }
+
+  .top-content {
     display: block;
   }
 
-  .tutorial-point{
+  .tutorial-point {
     width: 300px;
     padding: 2%;
   }
 
-  #tutorial-title{
+  #tutorial-title {
     text-align: center;
     width: 300px;
   }
@@ -83,10 +85,10 @@
   .description {
     font-size: 15pt;
     text-align: left;
-    
+
   }
-  
+
   #info-background {
-    background-color:rgb(255, 249, 188);
+    background-color: rgb(255, 249, 188);
   }
 }
