@@ -1,0 +1,75 @@
+@media only screen and (max-width: 768px) {
+  /*Stylization for the homepage*/
+  header {
+    padding: 10px;
+  }
+
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  } 
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /*Stylization for art pages:*/
+  .step-description {
+    margin-right: 10%;
+    padding: 10px;
+  }
+
+  .tutorial-figure {
+    width: 35%;
+    height: 35%;
+    margin: 0 5% 5px 5%;
+  }
+
+  .step-header {
+    margin-left: 5%;
+  }
+  
+  /*Stylization for the activity pages:*/
+  #randombutton-container{
+		width: 100%;
+		margin: none;
+	}
+	.top-content{
+		display: block;
+	}
+
+	#tutorial-container{
+		width: 95%;
+	}
+
+	#quiz-container{
+		width: 98%;
+		margin: none;
+	}
+}
+
+#header {
+    font-size: 26pt;
+    text-align: left;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+}
+ /*Style for info:*/
+.header {
+    margin-left: 50%;
+}
+
+.subheader {
+    font-size: 22pt;
+}
+
+.description {
+    font-size: 15pt;
+    text-align: left;
+    
+}
+
