@@ -1,5 +1,11 @@
 /*Stylization for all pages:*/
 
+p {
+  font-size: 12pt;
+  font-family: "Helvetica", "Arial";
+  line-height: 2;
+}
+
 header {
   padding: 10px;
   background-color: #333;
@@ -90,10 +96,7 @@ li a:hover {
 }
 
 .content {
-  font-size: 20px;
-  font-family: Verdana, sans-serif;
   font-weight: 500;
-  line-height: 1.5rem;
 }
 
 body {
@@ -252,23 +255,19 @@ body {
   margin-top: 85px;
 }
 
-#header {
+.info-header {
+  margin-left: 50%;
   font-size: 26pt;
   text-align: center;
   margin-bottom: 30px;
   border-bottom-style: solid;
 }
 
-.header {
-  margin-left: 50%;
-}
-
-.subheader {
+.info-subheader {
   font-size: 22pt;
 }
 
-.description {
-  font-size: 15pt;
+.info-description {
   text-align: left;
 }
 
@@ -280,6 +279,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   aspect-ratio: auto;
+  margin-top: 50px;
 }
 
 /*Stylization for activity page*/
