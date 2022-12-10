@@ -52,4 +52,23 @@
     margin-bottom: 30px;
     border-bottom-style: solid;
   }
+  
+  /*Stylization for activity page:*/
+	#randombutton-container{
+		width: 100%;
+		margin: none;
+	}
+	.top-content{
+		display: block;
+	}
+
+	#tutorial-container{
+		width: 95%;
+	}
+
+	#quiz-container{
+		width: 98%;
+		margin: none;
+	}
+
 }
