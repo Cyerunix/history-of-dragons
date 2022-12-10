@@ -4,6 +4,11 @@ p {
   font-size: 12pt;
   font-family: "Helvetica", "Arial";
   line-height: 2;
+  cursor: default;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  cursor: default;
 }
 
 header {
@@ -331,6 +336,7 @@ a{
     border-radius: 50px;
     width: 150px;
     margin: 1%;
+    cursor:pointer;
 }
 #quiztitle{
     color: white;
@@ -349,6 +355,7 @@ a{
     margin-top: 20px;
     border: none;
     border-radius: 10px;
+    cursor:pointer;
 }
 
 #randombutton-container{
@@ -360,7 +367,6 @@ a{
     font-family: 'Courier New';
     background-color: #ededed;
     margin-top: 5%;
-
 }
 
 #randombutton-title{
@@ -370,7 +376,8 @@ a{
 
 .top-content{
     display: flex;
-    margin-bottom: ;
+    margin-bottom: 20px;
+    margin-top: 85px;
 }
 
 #tutorial-container{
@@ -389,6 +396,7 @@ a{
     border-radius: 20px;
     text-align: center;
     width: 200px;
+    cursor: pointer;
 }
 
 .tutorial-point:hover{
@@ -400,4 +408,8 @@ a{
     color: wheat;
     font-size: 30px;
     padding: 7px;
+}
+
+.activity-button-text {
+  cursor: pointer;
 }
