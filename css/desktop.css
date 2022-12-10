@@ -284,9 +284,14 @@ body {
 
 
  /*Stylization for activity page:*/
+#activity-page-background {
+  background-color: rgb(255, 249, 188);
+}
+
 a{
     text-decoration: none
 }
+
 .activitypage{
     display: block;
 }
