@@ -29,4 +29,3 @@ function getans(){
 	document.getElementById("quizresult").innerHTML = "Score: "+score + " out of 10";
 
 }
-
