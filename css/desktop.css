@@ -289,26 +289,28 @@ body {
 
 
  /*Stylization for activity page:*/
+
 #activity-page-background {
   background-color: rgb(255, 249, 188);
+  margin-top:7.5%;
 }
 
 a{
     text-decoration: none
 }
-
 .activitypage{
     display: block;
 }
 
 .divider{
-    border-top: lightgray dotted 1px;
+    border-top: red dotted 1px;
     margin-left: 3%;
     margin-top: 6%;
     width: 750px;
 }
-.dividerlist{
-    display: flex;
+
+.listitem{
+  display: flex 
 }
 
 #factcontainer{
@@ -321,6 +323,10 @@ a{
     background-color: white;
 }
 
+#quiz{
+  font-family:'Arial';
+  padding:30px;
+}
 
 #quiz-container{
     background-color: slategray;
@@ -328,16 +334,31 @@ a{
     width: 99%;
     margin: 1%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #quizbutton{
     padding: 1%;
     border: none;
     border-radius: 50px;
-    width: 150px;
+    width: 50%;
     margin: 1%;
-    cursor:pointer;
+    font-size:20px;
 }
+
+#quizresult{
+  text-align:center;
+  width:100%;
+  padding:2%;
+  border:solid lightgray 1px;
+  border-radius: 10px;
+  margin-top:5%;
+  margin-bottom:7.5%;
+  font-family:'Courier New';
+  color:slategray;
+  background-color:white;
+}
+
 #quiztitle{
     color: white;
     text-align: left;
@@ -355,7 +376,6 @@ a{
     margin-top: 20px;
     border: none;
     border-radius: 10px;
-    cursor:pointer;
 }
 
 #randombutton-container{
@@ -367,6 +387,7 @@ a{
     font-family: 'Courier New';
     background-color: #ededed;
     margin-top: 5%;
+
 }
 
 #randombutton-title{
@@ -376,8 +397,7 @@ a{
 
 .top-content{
     display: flex;
-    margin-bottom: 20px;
-    margin-top: 85px;
+    margin-top: 5%;
 }
 
 #tutorial-container{
@@ -396,7 +416,6 @@ a{
     border-radius: 20px;
     text-align: center;
     width: 200px;
-    cursor: pointer;
 }
 
 .tutorial-point:hover{
@@ -409,7 +428,6 @@ a{
     font-size: 30px;
     padding: 7px;
 }
-
 .activity-button-text {
   cursor: pointer;
 }
