@@ -30,3 +30,8 @@ function getans(){
 
 }
 
+$(function() {
+	$("#submit-button").on("click", function() {
+		getans();
+	});
+})

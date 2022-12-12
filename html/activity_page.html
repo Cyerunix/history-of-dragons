@@ -14,7 +14,7 @@
 		<ul>
 			<li><a href="index.html">Home</a>
 			<li><a id="dropdown-trigger">Dragons</a>
-				<div class="dropdownMenu" onmouseleave="return hideDropdown();">
+				<div class="dropdownMenu">
 					<a href="american_info_page.html">American Dragons</a>
 					<a href="european_info_page.html">European Dragons</a>
 					<a href="asian_info_page.html">Asian Dragons</a>
@@ -32,8 +32,8 @@
 			<h1 id="randombutton-title">Dragon Fun Fact Generator</h1>
 			<p>Click the "Generate Fact" button to learn something new about dragons!</p>
 			<div id="factcontainer"><i>Fact will generate here...</i></div>
-			<button onclick="generatebutton()" class=randombutton>
-				<h1>Generate Fact</h1>
+			<button class=randombutton>
+				<h1 class="button-text">Generate Fact</h1>
 			</button>
 		</div>
 
@@ -79,8 +79,8 @@
 
 	<div id="quiz-container">
 		<p id="quiztitle">Test your knowledge with a Dragon Quiz!</p>
-		<button onclick="location.href='quiz.html'" id='quizbutton'>
-			<h2>Take Quiz</h2>
+		<button id='quizbutton'>
+			<h2 class="button-text">Take Quiz</h2>
 		</button>
 	</div>
 

@@ -1,6 +1,15 @@
 let index = 1;
 showSlides(index);
 
+$(function() {
+  $(".prevButton").on("click", function() {
+    changeSlide(-1);
+  });
+  $(".nextButton").on("click", function() {
+    changeSlide(1);
+  });
+})
+
 // Next/previous controls
 function changeSlide(n) {
   showSlides(index += n);
