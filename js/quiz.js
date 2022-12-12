@@ -325,8 +325,8 @@ function uncheck(){
 	if(ans10d == true){
 		document.getElementById("10a").checked = false;
 		document.getElementById("10b").checked = false;
-		document.getElementById("1c").checked = false;
-		document.getElementById("1d").checked = true;
+		document.getElementById("10c").checked = false;
+		document.getElementById("10d").checked = true;
 	}
 
 }
