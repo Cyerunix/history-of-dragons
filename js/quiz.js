@@ -330,3 +330,9 @@ function uncheck(){
 	}
 
 }
+
+$(function() {
+	$("#submit-button").on("click", function() {
+		getans();
+	});
+})

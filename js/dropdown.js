@@ -4,6 +4,14 @@ $(function() {
   $("#dropdown-trigger").on("mouseover", function() {
     $(".dropdownMenu").slideDown(300);
   });
+
+  $(".dropdownMenu").on("mouseleave", function() {
+    hideDropdown()
+  });
+
+  $("body").on("click", function() {
+    hideDropdown();
+  });
 });
 
 function hideDropdown() {
