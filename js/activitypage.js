@@ -1,3 +1,13 @@
+$(function() {
+	$(".randombutton").on("click", function() {
+		generatebutton();
+	});
+	
+	$("#quizbutton").on("click", function() {
+		return location.href='quiz.html';
+	})
+})
+
 //fact generator
 function generatebutton(){
 		let fact = showfact();
@@ -9,13 +19,3 @@ function showfact(){
 	let index = Math.floor(Math.random() * 15)
 	return facts[index];
 }
-
-$(function() {
-	$(".randombutton").on("click", function() {
-		generatebutton();
-	});
-	
-	$("#quizbutton").on("click", function() {
-		return location.href='quiz.html';
-	})
-})

@@ -14,7 +14,7 @@
     <ul>
       <li><a href="index.html">Home</a>
       <li><a id="dropdown-trigger">Dragons</a>
-        <div class="dropdownMenu" onmouseleave="return hideDropdown();">
+        <div class="dropdownMenu">
           <a href="american_info_page.html">American Dragons</a>
           <a href="european_info_page.html">European Dragons</a>
           <a href="asian_info_page.html">Asian Dragons</a>
@@ -24,126 +24,131 @@
     </ul>
   </nav>
 </header>
-    <body id="activity-page-background">
-    <form id="quiz">
 
-      <h1>DRAGON QUIZ</h1>
+<body id="activity-page-background">
+  <form id="quiz">
 
-      <p>1. How many legs does a lung dragon have?</p>
-        <input name="question_1" onclick="uncheck()" type="radio" id="1a">
-        <label>0</label><br>
-        <input name="question_1" onclick="uncheck()"type="radio" id="1b">
-        <label>2</label><br>
-        <input name="question_1"onclick="uncheck()"type="radio" id="1c">
-        <label>4</label><br>
-        <input name="question_1"onclick="uncheck()"type="radio" id="1d">
-        <label>6</label>
+    <h1>DRAGON QUIZ</h1>
 
-        <br>  
+    <p>1. How many legs does a lung dragon have?</p>
+    <input name="question_1" type="radio" id="1a" class="radio-button">
+    <label>0</label><br>
+    <input name="question_1" type="radio" id="1b" class="radio-button">
+    <label>2</label><br>
+    <input name="question_1" type="radio" id="1c" class="radio-button">
+    <label>4</label><br>
+    <input name="question_1" type="radio" id="1d" class="radio-button">
+    <label>6</label>
 
-        <p>2. Which dragon has wings?</p>
-        <input name="question_2"onclick="uncheck()"type="radio" id="2a">
-        <label >Wyrm</label><br>
-        <input name="question_2"onclick="uncheck()"type="radio" id="2b">
-        <label >Wyvern</label><br>  
-        <input name="question_2"onclick="uncheck()"type="radio" id="2c">
-        <label >Lung dragon</label><br>
-        <input name="question_2"onclick="uncheck()"type="radio" id="2d">
-        <label >Salamander</label><br>
+    <br>
 
-        <p>3. What country has a dragon on its flag?</p>
-        <input name="question_3"onclick="uncheck()"type="radio" id="3a">
-        <label >Brazil</label><br>
-        <input name="question_3"onclick="uncheck()"type="radio" id="3b">
-        <label>Poland</label><br>  
-        <input name="question_3"onclick="uncheck()"type="radio" id="3c">
-        <label>Wales</label><br>
-        <input name="question_3"onclick="uncheck()"type="radio" id="3d">
-        <label >Vietnam</label><br>
+    <p>2. Which dragon has wings?</p>
+    <input name="question_2" type="radio" id="2a" class="radio-button">
+    <label>Wyrm</label><br>
+    <input name="question_2" type="radio" id="2b" class="radio-button">
+    <label>Wyvern</label><br>
+    <input name="question_2" type="radio" id="2c" class="radio-button">
+    <label>Lung dragon</label><br>
+    <input name="question_2" type="radio" id="2d" class="radio-button">
+    <label>Salamander</label><br>
 
-        <p>4. What does the lung dragon NOT symbolise?</p>
-        <input name="question_4"onclick="uncheck()"type="radio" id="4a">
-        <label >Strength</label><br>
-        <input name="question_4"onclick="uncheck()"type="radio" id="4b">
-        <label >Kindness</label><br>  
-        <input name="question_4"onclick="uncheck()"type="radio" id="4c">
-        <label >Luck</label><br>
-        <input name="question_4"onclick="uncheck()"type="radio" id="4d">
-        <label >Fear</label><br>
+    <p>3. What country has a dragon on its flag?</p>
+    <input name="question_3" type="radio" id="3a" class="radio-button">
+    <label>Brazil</label><br>
+    <input name="question_3" type="radio" id="3b" class="radio-button">
+    <label>Poland</label><br>
+    <input name="question_3" type="radio" id="3c" class="radio-button">
+    <label>Wales</label><br>
+    <input name="question_3" type="radio" id="3d" class="radio-button">
+    <label>Vietnam</label><br>
 
-        <p>5. In the tabletop game Dungeons & Dragons, a dragon's color symbolizes its element. What element is a blue dragon?</p>
-        <input name="question_5"onclick="uncheck()"type="radio" id="5a">
-        <label >Fire</label><br>
-        <input name="question_5"onclick="uncheck()"type="radio" id="5b">
-        <label >Lightning</label><br>  
-        <input name="question_5"onclick="uncheck()"type="radio" id="5c">
-        <label >Acid</label><br>
-        <input name="question_5"onclick="uncheck()"type="radio" id="5d">
-        <label >Water</label><br>
+    <p>4. What does the lung dragon NOT symbolise?</p>
+    <input name="question_4" type="radio" id="4a" class="radio-button">
+    <label>Strength</label><br>
+    <input name="question_4" type="radio" id="4b" class="radio-button">
+    <label>Kindness</label><br>
+    <input name="question_4" type="radio" id="4c" class="radio-button">
+    <label>Luck</label><br>
+    <input name="question_4" type="radio" id="4d" class="radio-button">
+    <label>Fear</label><br>
 
-        <p>6. Wyverns are sometimes depicted as walking on their wings and legs. This is inspired by which type of extinct animal?</p>
-        <input name="question_6"onclick="uncheck()"type="radio" id="6a">
-        <label >Compsognathus</label><br>
-        <input name="question_6"onclick="uncheck()"type="radio" id="6b">
-        <label >Lepidosaur</label><br>  
-        <input name="question_6"onclick="uncheck()"type="radio" id="6c">
-        <label >Pterosaur</label><br>
-        <input name="question_6"onclick="uncheck()"type="radio" id="6d">
-        <label >Archosauromorph</label><br>
+    <p>5. In the tabletop game Dungeons & Dragons, a dragon's color symbolizes its element. What element is a blue
+      dragon?</p>
+    <input name="question_5" type="radio" id="5a" class="radio-button">
+    <label>Fire</label><br>
+    <input name="question_5" type="radio" id="5b" class="radio-button">
+    <label>Lightning</label><br>
+    <input name="question_5" type="radio" id="5c" class="radio-button">
+    <label>Acid</label><br>
+    <input name="question_5" type="radio" id="5d" class="radio-button">
+    <label>Water</label><br>
 
-        <p>7. Which type of dragon is sometimes depicted with antlers?</p>
-        <input name="question_7"onclick="uncheck()"type="radio" id="7a">
-        <label >Lung dragon</label><br>
-        <input name="question_7"onclick="uncheck()"type="radio" id="7b">
-        <label >Sea serpent</label><br>  
-        <input name="question_7"onclick="uncheck()"type="radio" id="7c">
-        <label >Wyvern</label><br>
-        <input name="question_7"onclick="uncheck()"type="radio" id="7d">
-        <label >Wyrm</label><br>
+    <p>6. Wyverns are sometimes depicted as walking on their wings and legs. This is inspired by which type of extinct
+      animal?</p>
+    <input name="question_6" type="radio" id="6a" class="radio-button">
+    <label>Compsognathus</label><br>
+    <input name="question_6" type="radio" id="6b" class="radio-button">
+    <label>Lepidosaur</label><br>
+    <input name="question_6" type="radio" id="6c" class="radio-button">
+    <label>Pterosaur</label><br>
+    <input name="question_6" type="radio" id="6d" class="radio-button">
+    <label>Archosauromorph</label><br>
 
-        <p>8. One Egyptian serpent-like dragon is depicted eating its own tail. What is the name of this dragon?</p>
-        <input name="question_8"onclick="uncheck()"type="radio" id="8a">
-        <label >Jörmungand</label><br>
-        <input name="question_8"onclick="uncheck()"type="radio" id="8b">
-        <label >Apophis</label><br>  
-        <input name="question_8"onclick="uncheck()"type="radio" id="8c">
-        <label >Ouroboros</label><br>
-        <input name="question_8"onclick="uncheck()"type="radio" id="8d">
-        <label >Homunculus</label><br>
+    <p>7. Which type of dragon is sometimes depicted with antlers?</p>
+    <input name="question_7" type="radio" id="7a" class="radio-button">
+    <label>Lung dragon</label><br>
+    <input name="question_7" type="radio" id="7b" class="radio-button">
+    <label>Sea serpent</label><br>
+    <input name="question_7" type="radio" id="7c" class="radio-button">
+    <label>Wyvern</label><br>
+    <input name="question_7" type="radio" id="7d" class="radio-button">
+    <label>Wyrm</label><br>
 
-        <p>9. The number of toes on a Lung dragon varies on geography and status. How many toes does a Korean lung dragon have?</p>
-        <input name="question_9"onclick="uncheck()"type="radio" id="9a">
-        <label >3</label><br>
-        <input name="question_9"onclick="uncheck()"type="radio" id="9b">
-        <label>4</label><br>  
-        <input name="question_9"onclick="uncheck()"type="radio" id="9c">
-        <label >5</label><br>
-        <input name="question_9"onclick="uncheck()"type="radio" id="9d">
-        <label >6</label><br>
+    <p>8. One Egyptian serpent-like dragon is depicted eating its own tail. What is the name of this dragon?</p>
+    <input name="question_8" type="radio" id="8a" class="radio-button">
+    <label>Jörmungand</label><br>
+    <input name="question_8" type="radio" id="8b" class="radio-button">
+    <label>Apophis</label><br>
+    <input name="question_8" type="radio" id="8c" class="radio-button">
+    <label>Ouroboros</label><br>
+    <input name="question_8" type="radio" id="8d" class="radio-button">
+    <label>Homunculus</label><br>
 
-        <p>10. Which pop-culture dragon qualifies as a Wyvern?</p>
-        <input name="question_10"onclick="uncheck()"type="radio" id="10a">
-        <label >Mushu (Mulan)</label><br>
-        <input name="question_10"onclick="uncheck()"type="radio" id="10b">
-        <label >Draco (Dragonheart)</label><br>  
-        <input name="question_10"onclick="uncheck()"type="radio" id="10c">
-        <label >Ender Dragon (Minecraft)</label><br>
-        <input name="question_10"onclick="uncheck()"type="radio" id="10d">
-        <label >Reshiram (Pokémon)</label><br>
+    <p>9. The number of toes on a Lung dragon varies on geography and status. How many toes does a Korean lung dragon
+      have?</p>
+    <input name="question_9" type="radio" id="9a" class="radio-button">
+    <label>3</label><br>
+    <input name="question_9" type="radio" id="9b" class="radio-button">
+    <label>4</label><br>
+    <input name="question_9" type="radio" id="9c" class="radio-button">
+    <label>5</label><br>
+    <input name="question_9" type="radio" id="9d" class="radio-button">
+    <label>6</label><br>
 
-        <br>
-        <input type="button" value="Submit" onclick="getans()">
+    <p>10. Which pop-culture dragon qualifies as a Wyvern?</p>
+    <input name="question_10" type="radio" id="10a" class="radio-button">
+    <label>Mushu (Mulan)</label><br>
+    <input name="question_10" type="radio" id="10b" class="radio-button">
+    <label>Draco (Dragonheart)</label><br>
+    <input name="question_10" type="radio" id="10c" class="radio-button">
+    <label>Ender Dragon (Minecraft)</label><br>
+    <input name="question_10" type="radio" id="10d" class="radio-button">
+    <label>Reshiram (Pokémon)</label><br>
 
-        <div id="quizresult"><i>Results will appear here...</i></div>
+    <br>
+    <input type="button" value="Submit" id="submit-button">
 
-    </form>
+    <div id="quizresult"><i>Results will appear here...</i></div>
+
+  </form>
 
 
-    </body>
-    <footer class="site-footer">&copy 2022 The Dragon Historians</footer>
+</body>
+<footer class="site-footer">&copy 2022 The Dragon Historians</footer>
 
-  <script src="../js/jquery-3.6.1.js"></script>
-  <script src="../js/home.js"></script>
-  <script src="../js/dropdown.js"></script>
-  <script src="../js/quiz.js"></script>
+<script src="../js/jquery-3.6.1.js"></script>
+<script src="../js/home.js"></script>
+<script src="../js/dropdown.js"></script>
+<script src="../js/quiz.js"></script>
+
 </html>

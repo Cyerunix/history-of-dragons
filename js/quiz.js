@@ -1,3 +1,13 @@
+$(function() {
+	$(".radio-button").on("click", function() {
+		uncheck();
+	})
+
+	$("#submit-button").on("click", function() {
+		getans();
+	})
+});
+
 function getans(){
 	const anslist = [];
 	let ans1 = document.getElementById('1c').checked;
