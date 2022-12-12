@@ -14,7 +14,7 @@
     <ul>
       <li><a href="index.html">Home</a>
       <li><a id="dropdown-trigger">Dragons</a>
-        <div class="dropdownMenu">
+        <div class="dropdownMenu" onmouseleave="return hideDropdown();">
           <a href="american_info_page.html">American Dragons</a>
           <a href="european_info_page.html">European Dragons</a>
           <a href="asian_info_page.html">Asian Dragons</a>
@@ -30,109 +30,109 @@
       <h1>DRAGON QUIZ</h1>
 
       <p>1. How many legs does a lung dragon have?</p>
-        <input onclick="uncheck()" type="radio" id="1a">
-        <label for="html">0</label><br>
-        <input onclick="uncheck()"type="radio" id="1b">
-        <label for="css">2</label><br>
-        <input onclick="uncheck()"type="radio" id="1c">
-        <label for="javascript">4</label><br>
-        <input onclick="uncheck()"type="radio" id="1d">
-        <label for="javascript">6</label>
+        <input name="question_1" onclick="uncheck()" type="radio" id="1a">
+        <label>0</label><br>
+        <input name="question_1" onclick="uncheck()"type="radio" id="1b">
+        <label>2</label><br>
+        <input name="question_1"onclick="uncheck()"type="radio" id="1c">
+        <label>4</label><br>
+        <input name="question_1"onclick="uncheck()"type="radio" id="1d">
+        <label>6</label>
 
         <br>  
 
         <p>2. Which dragon has wings?</p>
-        <input onclick="uncheck()"type="radio" id="2a">
-        <label for="age1">Wyrm</label><br>
-        <input onclick="uncheck()"type="radio" id="2b">
-        <label for="age2">Wyvern</label><br>  
-        <input onclick="uncheck()"type="radio" id="2c">
-        <label for="age3">Lung dragon</label><br>
-        <input onclick="uncheck()"type="radio" id="2d">
-        <label for="age3">Salamander</label><br>
+        <input name="question_2"onclick="uncheck()"type="radio" id="2a">
+        <label >Wyrm</label><br>
+        <input name="question_2"onclick="uncheck()"type="radio" id="2b">
+        <label >Wyvern</label><br>  
+        <input name="question_2"onclick="uncheck()"type="radio" id="2c">
+        <label >Lung dragon</label><br>
+        <input name="question_2"onclick="uncheck()"type="radio" id="2d">
+        <label >Salamander</label><br>
 
         <p>3. What country has a dragon on its flag?</p>
-        <input onclick="uncheck()"type="radio" id="3a">
-        <label for="age1">Brazil</label><br>
-        <input onclick="uncheck()"type="radio" id="3b">
-        <label for="age2">Poland</label><br>  
-        <input onclick="uncheck()"type="radio" id="3c">
-        <label for="age3">Wales</label><br>
-        <input onclick="uncheck()"type="radio" id="3d">
-        <label for="age3">Vietnam</label><br>
+        <input name="question_3"onclick="uncheck()"type="radio" id="3a">
+        <label >Brazil</label><br>
+        <input name="question_3"onclick="uncheck()"type="radio" id="3b">
+        <label>Poland</label><br>  
+        <input name="question_3"onclick="uncheck()"type="radio" id="3c">
+        <label>Wales</label><br>
+        <input name="question_3"onclick="uncheck()"type="radio" id="3d">
+        <label >Vietnam</label><br>
 
         <p>4. What does the lung dragon NOT symbolise?</p>
-        <input onclick="uncheck()"type="radio" id="4a">
-        <label for="age1">Strength</label><br>
-        <input onclick="uncheck()"type="radio" id="4b">
-        <label for="age2">Kindness</label><br>  
-        <input onclick="uncheck()"type="radio" id="4c">
-        <label for="age3">Luck</label><br>
-        <input onclick="uncheck()"type="radio" id="4d">
-        <label for="age3">Fear</label><br>
+        <input name="question_4"onclick="uncheck()"type="radio" id="4a">
+        <label >Strength</label><br>
+        <input name="question_4"onclick="uncheck()"type="radio" id="4b">
+        <label >Kindness</label><br>  
+        <input name="question_4"onclick="uncheck()"type="radio" id="4c">
+        <label >Luck</label><br>
+        <input name="question_4"onclick="uncheck()"type="radio" id="4d">
+        <label >Fear</label><br>
 
         <p>5. In the tabletop game Dungeons & Dragons, a dragon's color symbolizes its element. What element is a blue dragon?</p>
-        <input onclick="uncheck()"type="radio" id="5a">
-        <label for="age1">Fire</label><br>
-        <input onclick="uncheck()"type="radio" id="5b">
-        <label for="age2">Lightning</label><br>  
-        <input onclick="uncheck()"type="radio" id="5c">
-        <label for="age3">Acid</label><br>
-        <input onclick="uncheck()"type="radio" id="5d">
-        <label for="age3">Water</label><br>
+        <input name="question_5"onclick="uncheck()"type="radio" id="5a">
+        <label >Fire</label><br>
+        <input name="question_5"onclick="uncheck()"type="radio" id="5b">
+        <label >Lightning</label><br>  
+        <input name="question_5"onclick="uncheck()"type="radio" id="5c">
+        <label >Acid</label><br>
+        <input name="question_5"onclick="uncheck()"type="radio" id="5d">
+        <label >Water</label><br>
 
         <p>6. Wyverns are sometimes depicted as walking on their wings and legs. This is inspired by which type of extinct animal?</p>
-        <input onclick="uncheck()"type="radio" id="6a">
-        <label for="age1">Compsognathus</label><br>
-        <input onclick="uncheck()"type="radio" id="6b">
-        <label for="age2">Lepidosaur</label><br>  
-        <input onclick="uncheck()"type="radio" id="6c">
-        <label for="age3">Pterosaur</label><br>
-        <input onclick="uncheck()"type="radio" id="6d">
-        <label for="age3">Archosauromorph</label><br>
+        <input name="question_6"onclick="uncheck()"type="radio" id="6a">
+        <label >Compsognathus</label><br>
+        <input name="question_6"onclick="uncheck()"type="radio" id="6b">
+        <label >Lepidosaur</label><br>  
+        <input name="question_6"onclick="uncheck()"type="radio" id="6c">
+        <label >Pterosaur</label><br>
+        <input name="question_6"onclick="uncheck()"type="radio" id="6d">
+        <label >Archosauromorph</label><br>
 
         <p>7. Which type of dragon is sometimes depicted with antlers?</p>
-        <input onclick="uncheck()"type="radio" id="7a">
-        <label for="age1">Lung dragon</label><br>
-        <input onclick="uncheck()"type="radio" id="7b">
-        <label for="age2">Sea serpent</label><br>  
-        <input onclick="uncheck()"type="radio" id="7c">
-        <label for="age3">Wyvern</label><br>
-        <input onclick="uncheck()"type="radio" id="7d">
-        <label for="age3">Wyrm</label><br>
+        <input name="question_7"onclick="uncheck()"type="radio" id="7a">
+        <label >Lung dragon</label><br>
+        <input name="question_7"onclick="uncheck()"type="radio" id="7b">
+        <label >Sea serpent</label><br>  
+        <input name="question_7"onclick="uncheck()"type="radio" id="7c">
+        <label >Wyvern</label><br>
+        <input name="question_7"onclick="uncheck()"type="radio" id="7d">
+        <label >Wyrm</label><br>
 
         <p>8. One Egyptian serpent-like dragon is depicted eating its own tail. What is the name of this dragon?</p>
-        <input onclick="uncheck()"type="radio" id="8a">
-        <label for="age1">Jörmungand</label><br>
-        <input onclick="uncheck()"type="radio" id="8b">
-        <label for="age2">Apophis</label><br>  
-        <input onclick="uncheck()"type="radio" id="8c">
-        <label for="age3">Ouroboros</label><br>
-        <input onclick="uncheck()"type="radio" id="8d">
-        <label for="age3">Homunculus</label><br>
+        <input name="question_8"onclick="uncheck()"type="radio" id="8a">
+        <label >Jörmungand</label><br>
+        <input name="question_8"onclick="uncheck()"type="radio" id="8b">
+        <label >Apophis</label><br>  
+        <input name="question_8"onclick="uncheck()"type="radio" id="8c">
+        <label >Ouroboros</label><br>
+        <input name="question_8"onclick="uncheck()"type="radio" id="8d">
+        <label >Homunculus</label><br>
 
         <p>9. The number of toes on a Lung dragon varies on geography and status. How many toes does a Korean lung dragon have?</p>
-        <input onclick="uncheck()"type="radio" id="9a">
-        <label for="age1">3</label><br>
-        <input onclick="uncheck()"type="radio" id="9b">
-        <label for="age2">4</label><br>  
-        <input onclick="uncheck()"type="radio" id="9c">
-        <label for="age3">5</label><br>
-        <input onclick="uncheck()"type="radio" id="9d">
-        <label for="age3">6</label><br>
+        <input name="question_9"onclick="uncheck()"type="radio" id="9a">
+        <label >3</label><br>
+        <input name="question_9"onclick="uncheck()"type="radio" id="9b">
+        <label>4</label><br>  
+        <input name="question_9"onclick="uncheck()"type="radio" id="9c">
+        <label >5</label><br>
+        <input name="question_9"onclick="uncheck()"type="radio" id="9d">
+        <label >6</label><br>
 
         <p>10. Which pop-culture dragon qualifies as a Wyvern?</p>
-        <input onclick="uncheck()"type="radio" id="10a">
-        <label for="age1">Mushu (Mulan)</label><br>
-        <input onclick="uncheck()"type="radio" id="10b">
-        <label for="age2">Draco (Dragonheart)</label><br>  
-        <input onclick="uncheck()"type="radio" id="10c">
-        <label for="age3">Ender Dragon (Minecraft)</label><br>
-        <input onclick="uncheck()"type="radio" id="10d">
-        <label for="age3">Reshiram (Pokémon)</label><br>
+        <input name="question_10"onclick="uncheck()"type="radio" id="10a">
+        <label >Mushu (Mulan)</label><br>
+        <input name="question_10"onclick="uncheck()"type="radio" id="10b">
+        <label >Draco (Dragonheart)</label><br>  
+        <input name="question_10"onclick="uncheck()"type="radio" id="10c">
+        <label >Ender Dragon (Minecraft)</label><br>
+        <input name="question_10"onclick="uncheck()"type="radio" id="10d">
+        <label >Reshiram (Pokémon)</label><br>
 
         <br>
-        <input id="submit-button" type="button" value="Submit">
+        <input type="button" value="Submit" onclick="getans()">
 
         <div id="quizresult"><i>Results will appear here...</i></div>
 
