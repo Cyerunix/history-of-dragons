@@ -79,8 +79,7 @@
   }
   
   /*Stylization for activity page:*/
-
-#activity-page-background {
+  #activity-page-background {
   margin-top:45%;
   }
 
@@ -125,7 +124,5 @@
 #tutorial-title{
 	text-align: center;
 	width: 300px;
-}
-
 }
 }
