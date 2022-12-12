@@ -54,6 +54,10 @@
   }
   
   /*Stylization for activity page:*/
+	 #activity-page-background {
+  margin-top:10%;
+  }
+  
 	#randombutton-container{
 		width: 100%;
 		margin: none;
