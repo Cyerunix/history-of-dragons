@@ -1,7 +1,5 @@
 $(function() {
-	$(".radio-button").on("click", function() {
-		uncheck();
-	})
+
 
 	$("#submit-button").on("click", function() {
 		getans();
