@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" id="activity-background">
+
+<header class="site-header">
+  <link rel="stylesheet" href="..\css\desktop.css" />
+  <link rel="stylesheet" href="..\css\tablet.css" />
+  <link rel="stylesheet" href="..\css\mobile.css" />
+  <script src="../js/jquery-3.6.1.js"></script>
+  <script src="../js/dropdown.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <a href="index.html"><img class="icon" src="../images/home_imgs/icon.PNG" class="logo" /></a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a>
+      <li><a id="dropdown-trigger">Dragons</a>
+        <div class="dropdownMenu" onmouseleave="return hideDropdown();">
+          <a href="american_info_page.html">American Dragons</a>
+          <a href="european_info_page.html">European Dragons</a>
+          <a href="asian_info_page.html">Asian Dragons</a>
+        </div>
+      </li>
+      <li><a href="activity_page.html">Activities</a></li>
+    </ul>
+  </nav>
+</header>
+    <body id="activity-page-background">
+    <form id="quiz">
+
+      <h1>DRAGON QUIZ</h1>
+
+      <p>1. How many legs does a lung dragon have?</p>
+        <input type="radio" id="1a">
+        <label for="html">0</label><br>
+        <input type="radio" id="1b">
+        <label for="css">2</label><br>
+        <input type="radio" id="1c">
+        <label for="javascript">4</label><br>
+        <input type="radio" id="1d">
+        <label for="javascript">6</label>
+
+        <br>  
+
+        <p>2. Which dragon has wings?</p>
+        <input type="radio" id="2a">
+        <label for="age1">Wyrm</label><br>
+        <input type="radio" id="2b">
+        <label for="age2">Wyvern</label><br>  
+        <input type="radio" id="2c">
+        <label for="age3">Lung dragon</label><br>
+        <input type="radio" id="2d">
+        <label for="age3">Salamander</label><br>
+
+        <p>3. What country has a dragon on its flag?</p>
+        <input type="radio" id="3a">
+        <label for="age1">Brazil</label><br>
+        <input type="radio" id="3b">
+        <label for="age2">Poland</label><br>  
+        <input type="radio" id="3c">
+        <label for="age3">Wales</label><br>
+        <input type="radio" id="3d">
+        <label for="age3">Vietnam</label><br>
+
+        <p>4. What does the lung dragon NOT symbolise?</p>
+        <input type="radio" id="4a">
+        <label for="age1">Strength</label><br>
+        <input type="radio" id="4b">
+        <label for="age2">Kindness</label><br>  
+        <input type="radio" id="4c">
+        <label for="age3">Luck</label><br>
+        <input type="radio" id="4d">
+        <label for="age3">Fear</label><br>
+
+        <p>5. In the tabletop game Dungeons & Dragons, a dragon's color symbolizes its element. What element is a blue dragon?</p>
+        <input type="radio" id="5a">
+        <label for="age1">Fire</label><br>
+        <input type="radio" id="5b">
+        <label for="age2">Lightning</label><br>  
+        <input type="radio" id="5c">
+        <label for="age3">Acid</label><br>
+        <input type="radio" id="5d">
+        <label for="age3">Water</label><br>
+
+        <p>6. Wyverns are sometimes depicted as walking on their wings and legs. This is inspired by which type of extinct animal?</p>
+        <input type="radio" id="6a">
+        <label for="age1">Compsognathus</label><br>
+        <input type="radio" id="6b">
+        <label for="age2">Lepidosaur</label><br>  
+        <input type="radio" id="6c">
+        <label for="age3">Pterosaur</label><br>
+        <input type="radio" id="6d">
+        <label for="age3">Archosauromorph</label><br>
+
+        <p>7. Which type of dragon is sometimes depicted with antlers?</p>
+        <input type="radio" id="7a">
+        <label for="age1">Lung dragon</label><br>
+        <input type="radio" id="7b">
+        <label for="age2">Sea serpent</label><br>  
+        <input type="radio" id="7c">
+        <label for="age3">Wyvern</label><br>
+        <input type="radio" id="7d">
+        <label for="age3">Wyrm</label><br>
+
+        <p>8. One Egyptian serpent-like dragon is depicted eating its own tail. What is the name of this dragon?</p>
+        <input type="radio" id="8a">
+        <label for="age1">Jörmungand</label><br>
+        <input type="radio" id="8b">
+        <label for="age2">Apophis</label><br>  
+        <input type="radio" id="8c">
+        <label for="age3">Ouroboros</label><br>
+        <input type="radio" id="8d">
+        <label for="age3">Homunculus</label><br>
+
+        <p>9. The number of toes on a Lung dragon varies on geography and status. How many toes does a Korean lung dragon have?</p>
+        <input type="radio" id="9a">
+        <label for="age1">3</label><br>
+        <input type="radio" id="9b">
+        <label for="age2">4</label><br>  
+        <input type="radio" id="9c">
+        <label for="age3">5</label><br>
+        <input type="radio" id="9d">
+        <label for="age3">6</label><br>
+
+        <p>10. Which pop-culture dragon qualifies as a Wyvern?</p>
+        <input type="radio" id="10a">
+        <label for="age1">Mushu (Mulan)</label><br>
+        <input type="radio" id="10b">
+        <label for="age2">Draco (Dragonheart)</label><br>  
+        <input type="radio" id="10c">
+        <label for="age3">Ender Dragon (Minecraft)</label><br>
+        <input type="radio" id="10d">
+        <label for="age3">Reshiram (Pokémon)</label><br>
+
+        <br>
+        <input type="button" value="Submit" onclick="getans()">
+
+        <div id="quizresult"><i>Results will appear here...</i></div>
+
+    </form>
+
+
+    </body>
+    <footer class="site-footer">Copyright</footer>
+
+  <script src="../js/jquery-3.6.1.js"></script>
+  <script src="../js/home.js"></script>
+  <script src="../js/dropdown.js"></script>
+  <script src="../js/quiz.js"></script>
+</html>
