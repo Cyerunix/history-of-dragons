@@ -79,36 +79,53 @@
   }
   
   /*Stylization for activity page:*/
-  #quizbutton{
-    width: 500px;
-    margin: none;
+
+#activity-page-background {
+  margin-top:45%;
   }
 
-  #quiztitle{
-    margin: none;
-    width: 10%;
-  }
+.divider{
+  display:none;
+}
 
-  #quiz-container{
-    padding: 3%;
-    width: 90%;
-  }
+#quizbutton{
+	width:90%;
+	margin: none;
+}
 
-  #randombutton-container{
-      width: 100%;
-      margin: none;
-    }
-  .top-content{
-    display: block;
-  }
 
-  .tutorial-point{
-    width: 300px;
-    padding: 2%;
-  }
+#quiz-container{
+  display:block;
+	padding: 3%;
+	width: 90%;
+}
 
-  #tutorial-title{
-    text-align: center;
-    width: 300px;
-  }
+#quizresult{
+  margin-bottom:15%;
+}
+
+#quiztitle{
+  margin: none;
+  width: 90%;
+}
+
+#randombutton-container{
+		width: 100%;
+		margin: none;
+	}
+.top-content{
+	display: block;
+}
+
+.tutorial-point{
+	width: 300px;
+	padding: 2%;
+}
+
+#tutorial-title{
+	text-align: center;
+	width: 300px;
+}
+
+}
 }
